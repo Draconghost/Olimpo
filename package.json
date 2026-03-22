@@ -1,0 +1,32 @@
+{
+  "name": "gamestudios-engine",
+  "version": "1.0.0",
+  "description": "Motor de juegos MMORPG completo en JavaScript/Electron",
+  "main": "electron/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev",
+    "build": "electron-builder",
+    "test": "node scripts/smoke-test.js"
+  },
+  "keywords": [
+    "game-engine",
+    "mmorpg",
+    "3d",
+    "javascript",
+    "electron"
+  ],
+  "author": "GameStudios",
+  "license": "MIT",
+  "dependencies": {
+    "cannon-es": "^0.20.0",
+    "fengari-web": "^0.1.4",
+    "howler": "^2.2.4",
+    "three": "^0.160.1"
+  },
+  "devDependencies": {
+    "electron": "^28.1.0",
+    "electron-builder": "^24.9.1"
+  }
+}
